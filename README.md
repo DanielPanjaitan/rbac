@@ -1,4 +1,4 @@
-# rbac
+# yii2-basic-rbac
 ## First Step
 Please Install the database and verify your database has had user, role, rules, ability and arranger table.
 
