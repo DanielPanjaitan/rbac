@@ -16,3 +16,9 @@ Yii::$app->rbaccomponent->ableTo($ruleName);
 ```
 This syntax will return bolean TRUE or FALSE according to your ability to do the rule and can used to validate function by rule 
 
+###### n.b
+* Roles are user level on the system like admin, member, employee etc
+* Rules are Role task , like create, update, delete etc
+* Ability is relation what rules attach to the user role like admin can able to delete user etc
+* Arranger is relation of the Role attach to the User 
+
